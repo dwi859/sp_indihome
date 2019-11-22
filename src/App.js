@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './state/State';
+import Materi from './props/Prop';
+import Materi2 from './props/Prop2';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <Navbar/>
+      <br/>
+     
+     <div className="containerr">
+     <h1>NEWS</h1> 
+      <Materi img={require('./props/pemenang.jpg')} tgl="10 November 2019" des1="Pengumuman Pemenang Undian IndiHome Miliarder Paket Semarak Kebahagiaan Tahap II" des2="IndiHome kembali mengapresiasi pelanggan dengan mengumumkan pemenang Undian IndiHome Paket Miliarder Semarak Kebahagiaan Tahap II periode 1 Agustus – 30 September 2019."/>
+      <Materi img={require('./props/pemenang.jpg')} tgl="15 November 2019" des1="Pengumuman Pemenang Undian IndiHome Miliarder Paket Semarak Kebahagiaan Tahap II" des2="IndiHome kembali mengapresiasi pelanggan dengan mengumumkan pemenang Undian IndiHome Paket Miliarder Semarak Kebahagiaan Tahap II periode 1 Agustus – 30 September 2019."/>
+      
+      <Materi2 img2={require('./props/pemenang.jpg')} ctgl="10 November 2019" cdes1="Pengumuman Pemenang Undian IndiHome Miliarder Paket Semarak Kebahagiaan Tahap II" cdes2="IndiHome kembali mengapresiasi pelanggan dengan mengumumkan pemenang Undian IndiHome Paket Miliarder Semarak Kebahagiaan Tahap II periode 1 Agustus – 30 September 2019."/>
+      <Materi2 img2={require('./props/pemenang.jpg')} ctgl="11 November 2019" cdes1="Pengumuman Pemenang Undian IndiHome Miliarder Paket Semarak Kebahagiaan Tahap II" cdes2="IndiHome kembali mengapresiasi pelanggan dengan mengumumkan pemenang Undian IndiHome Paket Miliarder Semarak Kebahagiaan Tahap II periode 1 Agustus – 30 September 2019."/>
+      <Materi2 img2={require('./props/pemenang.jpg')} ctgl="12 November 2019" cdes1="Pengumuman Pemenang Undian IndiHome Miliarder Paket Semarak Kebahagiaan Tahap II" cdes2="IndiHome kembali mengapresiasi pelanggan dengan mengumumkan pemenang Undian IndiHome Paket Miliarder Semarak Kebahagiaan Tahap II periode 1 Agustus – 30 September 2019."/>
+      <Materi2 img2={require('./props/pemenang.jpg')} ctgl="13 November 2019" cdes1="Pengumuman Pemenang Undian IndiHome Miliarder Paket Semarak Kebahagiaan Tahap II" cdes2="IndiHome kembali mengapresiasi pelanggan dengan mengumumkan pemenang Undian IndiHome Paket Miliarder Semarak Kebahagiaan Tahap II periode 1 Agustus – 30 September 2019."/>
+      </div>
+     
+  </div>
   );
 }
 

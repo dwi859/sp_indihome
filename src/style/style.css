@@ -1,0 +1,106 @@
+.warna{
+    background-color: red;
+}
+.logo{
+    width: 200px;
+}
+.header{
+    background-color: red;
+    height: 70px;
+}
+.toggler{
+    background-color: transparent;
+}
+.sliderimage{
+    margin-top:50px;
+}
+.sliderimage img{
+    width:100%;
+}
+.slider{
+    background-color: rgb(186,3,2);
+    height:500px;
+    margin-top:-50px;
+}
+.slide{
+    padding-top:30px;
+}
+.notive{
+    margin-top:20px;
+}
+.danger{
+    background-color: rgb(186,3,2);
+}
+.slide{
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:480px){
+    .slider{
+        background-color: rgb(186,3,2);
+        height:90px;
+    }
+}
+.wrraper{
+  
+   width:700px;
+    display: inline-block;
+    height:300px;
+    margin-right:20px;
+}
+.wrraper2{
+  
+    width:350px;
+     display: inline-block;
+     height:300px;
+     margin-right:20px;
+ }
+.content1{
+    width: 700px;
+    float:left;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.content2{
+    width: 350px;
+    height:500px;
+    float:left;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   
+}
+.imagesliderr{
+    height:250px;
+    float:left;
+    width: 350px;
+    border-bottom: 2px dashed gainsboro;
+    margin-right:10px;
+}
+.des1{
+    text-align: left;
+    font-weight: bold;
+    color: black
+}
+.des2{
+    text-align: left;
+    font-weight: bold;
+    color: rgb(92, 92, 92);
+}
+.tgl{
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+    text-align: left;
+   
+}
+.wraperapp{
+    width: 1200px;
+    margin:auto;
+}
+.containerr{
+    width:1500px;
+    margin:auto;
+}
